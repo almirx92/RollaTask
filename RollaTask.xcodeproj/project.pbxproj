@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B569B4AB6A27A5DFFDDB786 /* Pods_RollaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1087E26355BFB0AFA94DC161 /* Pods_RollaTask.framework */; };
+		881D92482AB343DA005678A5 /* RollaTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D92472AB343DA005678A5 /* RollaTaskApp.swift */; };
+		881D924A2AB343DA005678A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D92492AB343DA005678A5 /* ContentView.swift */; };
+		881D924C2AB343DB005678A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881D924B2AB343DB005678A5 /* Assets.xcassets */; };
+		881D924F2AB343DB005678A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881D924E2AB343DB005678A5 /* Preview Assets.xcassets */; };
+		881D92592AB343DB005678A5 /* RollaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D92582AB343DB005678A5 /* RollaTaskTests.swift */; };
+		881D92632AB343DB005678A5 /* RollaTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D92622AB343DB005678A5 /* RollaTaskUITests.swift */; };
+		881D92652AB343DB005678A5 /* RollaTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D92642AB343DB005678A5 /* RollaTaskUITestsLaunchTests.swift */; };
+		888396142AB5F0630077CFFA /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396132AB5F0630077CFFA /* ScanViewModel.swift */; };
+		888396182AB5F1130077CFFA /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396172AB5F1130077CFFA /* TrackView.swift */; };
+		8883961C2AB5F1550077CFFA /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883961B2AB5F1550077CFFA /* ScanView.swift */; };
+		8883961E2AB5F1920077CFFA /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883961D2AB5F1920077CFFA /* FilterView.swift */; };
+		888396202AB5F1A40077CFFA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883961F2AB5F1A40077CFFA /* MainView.swift */; };
+		888396222AB5F79F0077CFFA /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396212AB5F79F0077CFFA /* BluetoothManager.swift */; };
+		888396242AB604360077CFFA /* ScanDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396232AB604360077CFFA /* ScanDetailsView.swift */; };
+		888396262AB609920077CFFA /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396252AB609920077CFFA /* PrimaryButton.swift */; };
+		888396282AB609D40077CFFA /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396272AB609D40077CFFA /* LottieView.swift */; };
+		8883962E2AB6142C0077CFFA /* bluetooth-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 8883962D2AB6142C0077CFFA /* bluetooth-lottie.json */; };
+		888396352AB6373F0077CFFA /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396342AB6373F0077CFFA /* Spacer.swift */; };
+		888396372AB637B70077CFFA /* gps-tracker.json in Resources */ = {isa = PBXBuildFile; fileRef = 888396362AB637B70077CFFA /* gps-tracker.json */; };
+		888396392AB638480077CFFA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396382AB638480077CFFA /* String+Extensions.swift */; };
+		8883963B2AB638560077CFFA /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883963A2AB638560077CFFA /* Double+Extensions.swift */; };
+		8883963D2AB638BC0077CFFA /* GPSTrackerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883963C2AB638BC0077CFFA /* GPSTrackerManager.swift */; };
+		888396412AB746CB0077CFFA /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888396402AB746CB0077CFFA /* FilterViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		881D92552AB343DB005678A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881D923C2AB343DA005678A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881D92432AB343DA005678A5;
+			remoteInfo = RollaTask;
+		};
+		881D925F2AB343DB005678A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881D923C2AB343DA005678A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881D92432AB343DA005678A5;
+			remoteInfo = RollaTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1087E26355BFB0AFA94DC161 /* Pods_RollaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RollaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		881D92442AB343DA005678A5 /* RollaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881D92472AB343DA005678A5 /* RollaTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollaTaskApp.swift; sourceTree = "<group>"; };
+		881D92492AB343DA005678A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		881D924B2AB343DB005678A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881D924E2AB343DB005678A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		881D92542AB343DB005678A5 /* RollaTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollaTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881D92582AB343DB005678A5 /* RollaTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollaTaskTests.swift; sourceTree = "<group>"; };
+		881D925E2AB343DB005678A5 /* RollaTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollaTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881D92622AB343DB005678A5 /* RollaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollaTaskUITests.swift; sourceTree = "<group>"; };
+		881D92642AB343DB005678A5 /* RollaTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollaTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		888396132AB5F0630077CFFA /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		888396172AB5F1130077CFFA /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		8883961B2AB5F1550077CFFA /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		8883961D2AB5F1920077CFFA /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		8883961F2AB5F1A40077CFFA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		888396212AB5F79F0077CFFA /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		888396232AB604360077CFFA /* ScanDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDetailsView.swift; sourceTree = "<group>"; };
+		888396252AB609920077CFFA /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		888396272AB609D40077CFFA /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		8883962D2AB6142C0077CFFA /* bluetooth-lottie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bluetooth-lottie.json"; sourceTree = "<group>"; };
+		888396332AB634D90077CFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888396342AB6373F0077CFFA /* Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
+		888396362AB637B70077CFFA /* gps-tracker.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "gps-tracker.json"; sourceTree = "<group>"; };
+		888396382AB638480077CFFA /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		8883963A2AB638560077CFFA /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		8883963C2AB638BC0077CFFA /* GPSTrackerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSTrackerManager.swift; sourceTree = "<group>"; };
+		888396402AB746CB0077CFFA /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
+		949D408C3E8196009B8F4067 /* Pods-RollaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RollaTask.release.xcconfig"; path = "Target Support Files/Pods-RollaTask/Pods-RollaTask.release.xcconfig"; sourceTree = "<group>"; };
+		9F7B3A16C29E0C6F296A5978 /* Pods-RollaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RollaTask.debug.xcconfig"; path = "Target Support Files/Pods-RollaTask/Pods-RollaTask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881D92412AB343DA005678A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B569B4AB6A27A5DFFDDB786 /* Pods_RollaTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881D92512AB343DB005678A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881D925B2AB343DB005678A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43EACA8F2820CA1CB4B47333 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1087E26355BFB0AFA94DC161 /* Pods_RollaTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		881D923B2AB343DA005678A5 = {
+			isa = PBXGroup;
+			children = (
+				881D92462AB343DA005678A5 /* RollaTask */,
+				881D92572AB343DB005678A5 /* RollaTaskTests */,
+				881D92612AB343DB005678A5 /* RollaTaskUITests */,
+				881D92452AB343DA005678A5 /* Products */,
+				BDD90D123FC55BF199F9DDAE /* Pods */,
+				43EACA8F2820CA1CB4B47333 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		881D92452AB343DA005678A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881D92442AB343DA005678A5 /* RollaTask.app */,
+				881D92542AB343DB005678A5 /* RollaTaskTests.xctest */,
+				881D925E2AB343DB005678A5 /* RollaTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881D92462AB343DA005678A5 /* RollaTask */ = {
+			isa = PBXGroup;
+			children = (
+				888396332AB634D90077CFFA /* Info.plist */,
+				881D92712AB345C5005678A5 /* Common */,
+				881D92722AB345CC005678A5 /* Modules */,
+				881D92472AB343DA005678A5 /* RollaTaskApp.swift */,
+				881D92492AB343DA005678A5 /* ContentView.swift */,
+				881D924B2AB343DB005678A5 /* Assets.xcassets */,
+				881D924D2AB343DB005678A5 /* Preview Content */,
+			);
+			path = RollaTask;
+			sourceTree = "<group>";
+		};
+		881D924D2AB343DB005678A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				881D924E2AB343DB005678A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		881D92572AB343DB005678A5 /* RollaTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				881D92582AB343DB005678A5 /* RollaTaskTests.swift */,
+			);
+			path = RollaTaskTests;
+			sourceTree = "<group>";
+		};
+		881D92612AB343DB005678A5 /* RollaTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				881D92622AB343DB005678A5 /* RollaTaskUITests.swift */,
+				881D92642AB343DB005678A5 /* RollaTaskUITestsLaunchTests.swift */,
+			);
+			path = RollaTaskUITests;
+			sourceTree = "<group>";
+		};
+		881D92712AB345C5005678A5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				888396042AB5EE940077CFFA /* Extensions */,
+				888396052AB5EE9C0077CFFA /* Resources */,
+				888396092AB5EEC60077CFFA /* Location */,
+				888396082AB5EEBF0077CFFA /* UIHelpers */,
+				888396072AB5EEB90077CFFA /* Views */,
+				888396062AB5EEB40077CFFA /* BLE */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		881D92722AB345CC005678A5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8883960B2AB5EF220077CFFA /* Main */,
+				8883960C2AB5EF270077CFFA /* Filter */,
+				8883960E2AB5EF390077CFFA /* Track */,
+				8883960D2AB5EF320077CFFA /* Scan */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		888396042AB5EE940077CFFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				888396382AB638480077CFFA /* String+Extensions.swift */,
+				8883963A2AB638560077CFFA /* Double+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		888396052AB5EE9C0077CFFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8883962D2AB6142C0077CFFA /* bluetooth-lottie.json */,
+				888396362AB637B70077CFFA /* gps-tracker.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		888396062AB5EEB40077CFFA /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				888396212AB5F79F0077CFFA /* BluetoothManager.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		888396072AB5EEB90077CFFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				888396252AB609920077CFFA /* PrimaryButton.swift */,
+				888396272AB609D40077CFFA /* LottieView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		888396082AB5EEBF0077CFFA /* UIHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				888396342AB6373F0077CFFA /* Spacer.swift */,
+			);
+			path = UIHelpers;
+			sourceTree = "<group>";
+		};
+		888396092AB5EEC60077CFFA /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				8883963C2AB638BC0077CFFA /* GPSTrackerManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		8883960B2AB5EF220077CFFA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8883961F2AB5F1A40077CFFA /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8883960C2AB5EF270077CFFA /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				8883963E2AB745E90077CFFA /* FilterViewModel */,
+				8883961D2AB5F1920077CFFA /* FilterView.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		8883960D2AB5EF320077CFFA /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				8883960F2AB5F0130077CFFA /* ScanViewModel */,
+				888396102AB5F0210077CFFA /* ScanDetails */,
+				8883961B2AB5F1550077CFFA /* ScanView.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		8883960E2AB5EF390077CFFA /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				888396172AB5F1130077CFFA /* TrackView.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		8883960F2AB5F0130077CFFA /* ScanViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				888396132AB5F0630077CFFA /* ScanViewModel.swift */,
+			);
+			path = ScanViewModel;
+			sourceTree = "<group>";
+		};
+		888396102AB5F0210077CFFA /* ScanDetails */ = {
+			isa = PBXGroup;
+			children = (
+				888396232AB604360077CFFA /* ScanDetailsView.swift */,
+			);
+			path = ScanDetails;
+			sourceTree = "<group>";
+		};
+		8883963E2AB745E90077CFFA /* FilterViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				888396402AB746CB0077CFFA /* FilterViewModel.swift */,
+			);
+			path = FilterViewModel;
+			sourceTree = "<group>";
+		};
+		BDD90D123FC55BF199F9DDAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F7B3A16C29E0C6F296A5978 /* Pods-RollaTask.debug.xcconfig */,
+				949D408C3E8196009B8F4067 /* Pods-RollaTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881D92432AB343DA005678A5 /* RollaTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881D92682AB343DB005678A5 /* Build configuration list for PBXNativeTarget "RollaTask" */;
+			buildPhases = (
+				4C23875B22939329A90FB608 /* [CP] Check Pods Manifest.lock */,
+				881D92402AB343DA005678A5 /* Sources */,
+				881D92412AB343DA005678A5 /* Frameworks */,
+				881D92422AB343DA005678A5 /* Resources */,
+				753597C184B018730D72E4E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollaTask;
+			productName = RollaTask;
+			productReference = 881D92442AB343DA005678A5 /* RollaTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		881D92532AB343DB005678A5 /* RollaTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881D926B2AB343DB005678A5 /* Build configuration list for PBXNativeTarget "RollaTaskTests" */;
+			buildPhases = (
+				881D92502AB343DB005678A5 /* Sources */,
+				881D92512AB343DB005678A5 /* Frameworks */,
+				881D92522AB343DB005678A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881D92562AB343DB005678A5 /* PBXTargetDependency */,
+			);
+			name = RollaTaskTests;
+			productName = RollaTaskTests;
+			productReference = 881D92542AB343DB005678A5 /* RollaTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		881D925D2AB343DB005678A5 /* RollaTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881D926E2AB343DB005678A5 /* Build configuration list for PBXNativeTarget "RollaTaskUITests" */;
+			buildPhases = (
+				881D925A2AB343DB005678A5 /* Sources */,
+				881D925B2AB343DB005678A5 /* Frameworks */,
+				881D925C2AB343DB005678A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881D92602AB343DB005678A5 /* PBXTargetDependency */,
+			);
+			name = RollaTaskUITests;
+			productName = RollaTaskUITests;
+			productReference = 881D925E2AB343DB005678A5 /* RollaTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881D923C2AB343DA005678A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					881D92432AB343DA005678A5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					881D92532AB343DB005678A5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 881D92432AB343DA005678A5;
+					};
+					881D925D2AB343DB005678A5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 881D92432AB343DA005678A5;
+					};
+				};
+			};
+			buildConfigurationList = 881D923F2AB343DA005678A5 /* Build configuration list for PBXProject "RollaTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881D923B2AB343DA005678A5;
+			productRefGroup = 881D92452AB343DA005678A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881D92432AB343DA005678A5 /* RollaTask */,
+				881D92532AB343DB005678A5 /* RollaTaskTests */,
+				881D925D2AB343DB005678A5 /* RollaTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881D92422AB343DA005678A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883962E2AB6142C0077CFFA /* bluetooth-lottie.json in Resources */,
+				881D924F2AB343DB005678A5 /* Preview Assets.xcassets in Resources */,
+				881D924C2AB343DB005678A5 /* Assets.xcassets in Resources */,
+				888396372AB637B70077CFFA /* gps-tracker.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881D92522AB343DB005678A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881D925C2AB343DB005678A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C23875B22939329A90FB608 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RollaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		753597C184B018730D72E4E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RollaTask/Pods-RollaTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RollaTask/Pods-RollaTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RollaTask/Pods-RollaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881D92402AB343DA005678A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888396242AB604360077CFFA /* ScanDetailsView.swift in Sources */,
+				888396392AB638480077CFFA /* String+Extensions.swift in Sources */,
+				888396412AB746CB0077CFFA /* FilterViewModel.swift in Sources */,
+				8883963B2AB638560077CFFA /* Double+Extensions.swift in Sources */,
+				888396352AB6373F0077CFFA /* Spacer.swift in Sources */,
+				881D924A2AB343DA005678A5 /* ContentView.swift in Sources */,
+				888396262AB609920077CFFA /* PrimaryButton.swift in Sources */,
+				888396202AB5F1A40077CFFA /* MainView.swift in Sources */,
+				888396222AB5F79F0077CFFA /* BluetoothManager.swift in Sources */,
+				888396182AB5F1130077CFFA /* TrackView.swift in Sources */,
+				8883961C2AB5F1550077CFFA /* ScanView.swift in Sources */,
+				888396142AB5F0630077CFFA /* ScanViewModel.swift in Sources */,
+				8883961E2AB5F1920077CFFA /* FilterView.swift in Sources */,
+				888396282AB609D40077CFFA /* LottieView.swift in Sources */,
+				8883963D2AB638BC0077CFFA /* GPSTrackerManager.swift in Sources */,
+				881D92482AB343DA005678A5 /* RollaTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881D92502AB343DB005678A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881D92592AB343DB005678A5 /* RollaTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881D925A2AB343DB005678A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881D92652AB343DB005678A5 /* RollaTaskUITestsLaunchTests.swift in Sources */,
+				881D92632AB343DB005678A5 /* RollaTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		881D92562AB343DB005678A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881D92432AB343DA005678A5 /* RollaTask */;
+			targetProxy = 881D92552AB343DB005678A5 /* PBXContainerItemProxy */;
+		};
+		881D92602AB343DB005678A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881D92432AB343DA005678A5 /* RollaTask */;
+			targetProxy = 881D925F2AB343DB005678A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		881D92662AB343DB005678A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881D92672AB343DB005678A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881D92692AB343DB005678A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7B3A16C29E0C6F296A5978 /* Pods-RollaTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RollaTask/Preview Content\"";
+				DEVELOPMENT_TEAM = 27RXX3B5UQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RollaTask/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.RollaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		881D926A2AB343DB005678A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949D408C3E8196009B8F4067 /* Pods-RollaTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RollaTask/Preview Content\"";
+				DEVELOPMENT_TEAM = 27RXX3B5UQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RollaTask/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.RollaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		881D926C2AB343DB005678A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27RXX3B5UQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.RollaTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollaTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RollaTask";
+			};
+			name = Debug;
+		};
+		881D926D2AB343DB005678A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27RXX3B5UQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.RollaTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollaTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RollaTask";
+			};
+			name = Release;
+		};
+		881D926F2AB343DB005678A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27RXX3B5UQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.RollaTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollaTask;
+			};
+			name = Debug;
+		};
+		881D92702AB343DB005678A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27RXX3B5UQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.dev.RollaTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollaTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881D923F2AB343DA005678A5 /* Build configuration list for PBXProject "RollaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881D92662AB343DB005678A5 /* Debug */,
+				881D92672AB343DB005678A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881D92682AB343DB005678A5 /* Build configuration list for PBXNativeTarget "RollaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881D92692AB343DB005678A5 /* Debug */,
+				881D926A2AB343DB005678A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881D926B2AB343DB005678A5 /* Build configuration list for PBXNativeTarget "RollaTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881D926C2AB343DB005678A5 /* Debug */,
+				881D926D2AB343DB005678A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881D926E2AB343DB005678A5 /* Build configuration list for PBXNativeTarget "RollaTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881D926F2AB343DB005678A5 /* Debug */,
+				881D92702AB343DB005678A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 881D923C2AB343DA005678A5 /* Project object */;
+}
